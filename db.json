@@ -1,0 +1,36 @@
+{
+    "products": [
+      {
+        "id": "i7",
+        "title": "King PC Tower i7",
+        "description": "King of the digital realm — performance, value, sleek style.",
+        "image": "/Pics/KingPcI7.jpg",
+        "price": 999,
+        "specs": [
+          "Intel Core i7 – 8 cores",
+          "NVIDIA RTX 3060 12 GB",
+          "16 GB DDR4 3200 MHz",
+          "512 GB NVMe SSD",
+          "ATX Mid Tower",
+          "Windows 11 Home"
+        ]
+      },
+      {
+        "id": "i9",
+        "title": "King PC Tower i9",
+        "description": "King of the digital realm — performance, power, sleek style.",
+        "image": "/Pics/KingPcI9.jpg",
+        "price": 1899,
+        "specs": [
+          "Intel Core i9 – 16 cores",
+          "NVIDIA RTX 4090 24 GB",
+          "32 GB DDR4 3200 MHz",
+          "1 TB NVMe SSD",
+          "ATX Mid Tower",
+          "Windows 11 Home"
+        ]
+      }
+    ],
+    "cart": []
+  }
+  
