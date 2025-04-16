@@ -1,4 +1,4 @@
-.page {
+.page {/* General page styling */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -7,44 +7,41 @@
     text-align: center;
   }
   
-  .page-listing {
+  .page-listing {/* Specific styling for the product listing page */
     background-image: url('/Pics/ProductListing.jpg');
   }
   
-  .page-details {
+  .page-details {/* Specific styling for the product details page */
     background-image: url('/Pics/ProductDetails.jpg');
+    color: white;
+    text-shadow: 1px 1px 2px black, -1px -1px 2px black;
   }
   
-  .page-checkout {
+  .page-checkout {/* Specific styling for the checkout page */
     background-image: url('/Pics/ShoppingCart.jpg');
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 6px rgb(0, 0, 0);
   }
 
-  .page-details {
-    color: white;
-    text-shadow: 1px 1px 2px black, -1px -1px 2px black;
-  }
-
-.product-listing-container {
+.product-listing-container {/* Container for the product listing */
     padding: 32px;
     text-align: center;
   }
   
-  .page-title {
+  .page-title {/* Title styling for pages */
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 32px;
   }
   
-  .product-grid {
+  .product-grid {/* Grid layout for product cards */
     display: flex;
     justify-content: center;
     gap: 32px;
     flex-wrap: wrap;
   }
   
-  .product-card {
+  .product-card {/* Styling for individual product cards */
     border: 2px solid #333;
     border-radius: 16px;
     padding: 24px;
@@ -56,28 +53,28 @@
     text-shadow: 1px 1px 2px black, -1px -1px 2px black;
   }
   
-  .product-card:hover {
+  .product-card:hover {/* Hover effect for product cards */
     transform: scale(1.03);
   }
   
-  .product-image {
+  .product-image {/* Styling for product images */
     width: 100%;
     height: auto;
     border-radius: 8px;
   }
   
-  .product-title {
+  .product-title {/* Styling for product titles */
     font-size: 20px;
     margin: 16px 0 8px;
     font-weight: bold;
   }
   
-  .product-description {
+  .product-description {/* Styling for product descriptions */
     font-size: 16px;
     margin-bottom: 16px;
   }
   
-  .view-button {
+  .view-button {/* Styling for the "View Details" button */
     background-color: #4c1d95;
     color: white;
     border: none;
@@ -88,24 +85,24 @@
     transition: background-color 0.2s ease;
   }
   
-  .view-button:hover {
+  .view-button:hover {/* Hover effect for the "View Details" button */
     background-color: #6d28d9;
   }
   
-  .product-detail-container {
+  .product-detail-container {/* Container for product details */
     max-width: 800px;
     margin: 32px auto;
     padding: 32px;
     text-align: center;
   }
   
-  .product-detail-title {
+  .product-detail-title {/* Styling for product detail titles */
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 16px;
   }
   
-  .detail-image {
+  .detail-image {/* Styling for product detail images */
     width: 100%;
     max-width: 400px;
     height: auto;
@@ -113,18 +110,18 @@
     margin-bottom: 16px;
   }
   
-  .detail-description {
+  .detail-description {/* Styling for product detail descriptions */
     font-size: 17.6px;
     margin-bottom: 16px;
   }
   
-  .spec-list {
+  .spec-list {/* Styling for the list of specifications */
     margin: 16px auto 32px;
     padding: 0;
     list-style: disc inside;
   }
   
-  .add-to-cart-button {
+  .add-to-cart-button {/* Styling for the "Add to Cart" button */
     background-color: #4c1d95;
     color: white;
     font-weight: bold;
@@ -135,7 +132,7 @@
     cursor: pointer;
   }
   
-  .nav-buttons button {
+  .nav-buttons button {/* Styling for navigation buttons */
     margin: 0 8px;
     padding: 8px 16px;
     border: 2px solid #4c1d95;
@@ -146,14 +143,14 @@
     cursor: pointer;
   }
   
-  .checkout-container {
+  .checkout-container {/* Styling for the checkout container */
     max-width: 800px;
     margin: 32px auto;
     padding: 32px;
     text-align: center;
   }
   
-  .cart-item {
+  .cart-item {/* Styling for cart items */
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #ccc;
@@ -161,7 +158,7 @@
     align-items: center;
   }
   
-  .cart-controls button {
+  .cart-controls button {/* Styling for cart control buttons */
     margin: 0 4px;
     padding: 8px;
     font-weight: bold;
@@ -169,13 +166,13 @@
     cursor: pointer;
   }
   
-  .total-box {
+  .total-box {/* Styling for the total box */
     margin-top: 32px;
     font-size: 20px;
     font-weight: bold;
   }
   
-  .submit-button {
+  .submit-button {/* Styling for the submit button */
     background-color: #4c1d95;
     color: white;
     border: none;
@@ -186,23 +183,23 @@
     cursor: pointer;
   }
   
-  .confirmation-container {
+  .confirmation-container {/* Styling for the confirmation container */
     text-align: center;
     padding: 48px;
   }
   
-  .confirmation-container h1 {
+  .confirmation-container h1 {/* Styling for the confirmation title */
     font-size: 32px;
     margin-bottom: 16px;
     color: #4c1d95;
   }
   
-  .confirmation-container p {
+  .confirmation-container p {/* Styling for the confirmation message */
     font-size: 17.6px;
     margin-bottom: 32px;
   }
   
-  .confirmation-container button {
+  .confirmation-container button {/* Styling for the confirmation button */
     background-color: #4c1d95;
     color: white;
     border: none;
@@ -212,7 +209,7 @@
     cursor: pointer;
   }
   
-  .header {
+  .header {/* Styling for the header */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -222,18 +219,18 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   }
   
-  .site-title {
+  .site-title {/* Styling for the site title in the header */
     font-size: 24px;
     font-weight: bold;
     cursor: pointer;
   }
   
-  .header-buttons {
+  .header-buttons {/* Styling for header buttons */
     display: flex;
     gap: 12px;
   }
   
-  .home-button,
+  .home-button,/* Styling for the home and cart buttons */
   .cart-button {
     background-color: #4c1d95;
     color: white;
@@ -245,7 +242,7 @@
     transition: background-color 0.2s ease;
   }
   
-  .home-button:hover,
+  .home-button:hover,/* Hover effect for the home and cart buttons */
   .cart-button:hover {
     background-color: #6d28d9;
   }

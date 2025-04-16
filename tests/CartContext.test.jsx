@@ -1,8 +1,10 @@
-import React from 'react';                       // ← add
-import { renderHook, act } from '@testing-library/react';
-import { CartProvider, CartContext } from '../src/context/CartContext';
+import React from 'react';
+import { renderHook, act } from '@testing-library/react'; // Importing utilities for testing hooks and simulating actions
+import { CartProvider, CartContext } from '../src/context/CartContext'; // Importing the CartProvider and CartContext for testing
 
+// Grouping tests for the CartContext
 describe('CartContext', () => {
+  // Test case to verify that an item is added to the cart
   it('adds item to cart', () => {
     const wrapper = ({ children }) => <CartProvider>{children}</CartProvider>;
 
